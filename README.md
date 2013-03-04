@@ -62,6 +62,7 @@ Javascript Library zum bequemeren Suchen, Filtern und zur Paginierung erfordert 
 
 * Die Übersetzung von Datatabels erfolgt in dataTables.de.txt
 * Ein Helper für einfaches Instanzieren in `app\views\shared\_datatables_helper.html.erb` ermöglich Datatables-Tabell mit dem CSS-Klasse datatable plus der Instanzierung am Ende des Views.
+
 ```ruby
 <%= render "shared/datatables_helper" %>
 ```
