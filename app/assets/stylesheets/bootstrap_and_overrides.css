@@ -1,11 +1,8 @@
 /*=require twitter-bootstrap-static/bootstrap */
 /*=require twitter-bootstrap-static/fontawesome */
 
-body, p, ol, ul, td { 
-	font-family: 'PT Sans Narrow', sans-serif; }
-h1, h2, h3, h4, h5, h6, th, .brand, .nav { 
-	font-family: 'PT Sans Narrow', sans-serif; }
 body { 
+	font-family: 'PT Sans Narrow', sans-serif; 
 	padding-top: 40px; }
 
 /* Default Button is almost not readable */
