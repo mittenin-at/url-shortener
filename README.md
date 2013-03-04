@@ -2,7 +2,8 @@
   `rails new url`
 # Scaffolding des Models
   `rails generate scaffold link url:string`
-# Einfügen von Gems in `Gemfile.rb`
+# Einfügen von Gems in 
+  `Gemfile.rb`
     gem 'jquery-rails'
     gem 'jquery-datatables-rails'                        # Tables
     gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
@@ -17,11 +18,15 @@
   `rails g bootstrap:layout application fixed`
 ## Views behübschen mit Twitter Bootstrap  
   `rails generate bootstrap:themed Link`
-## CSS modifizieren in `\app\assets\stylesheets\bootstrap_and_overrides.css`
-## Layout modifizieren in `app\views\layouts\application.html.erb`
-# Standardsprache Deutsch in `app\config\application.rb` auskommentieren:
+## CSS modifizieren in 
+  `\app\assets\stylesheets\bootstrap_and_overrides.css`
+## Layout modifizieren in 
+  `app\views\layouts\application.html.erb`
+# Standardsprache Deutsch 
+  in `app\config\application.rb` auskommentieren:
     config.i18n.default_locale = :de
-# Übersetzungen in `config/locales/de.yml`
+# Übersetzungen 
+  in `config/locales/de.yml`
 # Datatables Javascript Library zum bequemeren Suchen, Filtern und zur Paginierung 
 ## erfordert Anpassungen in 
 ** `app\assets\javascripts\application.js`
