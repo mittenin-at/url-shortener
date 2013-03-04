@@ -6,8 +6,8 @@ Das Erstellen der Applikation ist relativ einfach:
   `rails new url`
 * Scaffolding des Models
   `rails generate scaffold link url:string`
-* Einfügen von Gems in 
-  `Gemfile.rb`
+* Einfügen von Gems in `Gemfile.rb`:
+
 ```ruby
 gem 'jquery-rails'
 gem 'jquery-datatables-rails'                        # Tables
@@ -41,23 +41,27 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 ### Datatables 
 
 Javascript Library zum bequemeren Suchen, Filtern und zur Paginierung erfordert Anpassungen in 
-* Laden der Javascript-Bibliothek `app\assets\javascripts\application.js`
-  ```ruby
-  //= require jquery
-  //= require jquery_ujs
-  //= require twitter/bootstrap
-  //= require dataTables/jquery.dataTables
-  //= require dataTables/jquery.dataTables.bootstrap
-  ```
-* Laden des Stylesheets `app\assets\stylesheets\application.css`
-  ```ruby
-  *= require_self
-  *= require scaffolds
-  *= require bootstrap_and_overrides
-  *= require dataTables/jquery.dataTables.bootstrap 
-  ```
+* Laden der Javascript-Bibliothek `app\assets\javascripts\application.js`:
+
+```ruby
+//= require jquery
+//= require jquery_ujs
+//= require twitter/bootstrap
+//= require dataTables/jquery.dataTables
+//= require dataTables/jquery.dataTables.bootstrap
+```
+
+* Laden des Stylesheets `app\assets\stylesheets\application.css`:
+
+```ruby
+*= require_self
+*= require scaffolds
+*= require bootstrap_and_overrides
+*= require dataTables/jquery.dataTables.bootstrap 
+```
+
 * Die Übersetzung von Datatabels erfolgt in dataTables.de.txt
 * Ein Helper für einfaches Instanzieren in `app\views\shared\_datatables_helper.html.erb` ermöglich Datatables-Tabell mit dem CSS-Klasse datatable plus der Instanzierung am Ende des Views.
-  ```ruby
-  <%= render "shared/datatables_helper" %>
-  ```
+```ruby
+<%= render "shared/datatables_helper" %>
+```
