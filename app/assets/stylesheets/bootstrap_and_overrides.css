@@ -2,9 +2,9 @@
 /*=require twitter-bootstrap-static/fontawesome */
 
 body, p, ol, ul, td { 
-	font-family: 'Ubuntu', sans-serif; }
-h1, h2, h3, h4, h5, h6 { 
-	font-family: 'PTSansNarrow', sans-serif; }
+	font-family: 'PT Sans Narrow', sans-serif; }
+h1, h2, h3, h4, h5, h6, th, .brand, .nav { 
+	font-family: 'PT Sans Narrow', sans-serif; }
 body { 
 	padding-top: 40px; }
 
