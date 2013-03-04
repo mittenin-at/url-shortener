@@ -1,0 +1,15 @@
+/*=require twitter-bootstrap-static/bootstrap */
+/*=require twitter-bootstrap-static/fontawesome */
+
+body, p, ol, ul, td { 
+	font-family: 'Ubuntu', sans-serif; }
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'PTSansNarrow', sans-serif; }
+body { 
+	padding-top: 40px; }
+
+/* Default Button is almost not readable */
+.btn { 
+	color: #000 !important; }
+.btn-primary, .btn-info, .btn-success, .btn-warning, .btn-danger, .btn-inverse { 
+	color: #fff !important; }
