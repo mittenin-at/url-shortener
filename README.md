@@ -41,7 +41,7 @@ gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootst
 ### Datatables 
 
 Javascript Library zum bequemeren Suchen, Filtern und zur Paginierung erfordert Anpassungen in 
-* `app\assets\javascripts\application.js`
+* Laden der Javascript-Bibliothek `app\assets\javascripts\application.js`
 ```ruby
 //= require jquery
 //= require jquery_ujs
@@ -49,7 +49,7 @@ Javascript Library zum bequemeren Suchen, Filtern und zur Paginierung erfordert 
 //= require dataTables/jquery.dataTables
 //= require dataTables/jquery.dataTables.bootstrap
 ```
-* `app\assets\stylesheets\application.css`
+* Laden des Stylesheets `app\assets\stylesheets\application.css`
 ```ruby
 *= require_self
 *= require scaffolds
