@@ -1,12 +1,16 @@
-/*=require twitter-bootstrap-static/bootstrap */
-/*=require twitter-bootstrap-static/fontawesome */
+/*
+  =require twitter-bootstrap-static/bootstrap
 
-body { 
-	font-family: 'PT Sans Narrow', sans-serif; 
-	padding-top: 40px; }
+  Static version of css will use Glyphicons sprites by default
+  =require twitter-bootstrap-static/sprites
+*/
+
+body {
+  font-family: 'PT Sans Narrow', sans-serif;
+  padding-top: 40px; }
 
 /* Default Button is almost not readable */
-.btn { 
-	color: #000 !important; }
-.btn-primary, .btn-info, .btn-success, .btn-warning, .btn-danger, .btn-inverse { 
-	color: #fff !important; }
+.btn {
+  color: #000 !important; }
+.btn-primary, .btn-info, .btn-success, .btn-warning, .btn-danger, .btn-inverse {
+  color: #fff !important; }

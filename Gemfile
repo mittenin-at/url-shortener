@@ -8,6 +8,7 @@ gem 'jquery-datatables-rails'                        # Tables
 gem 'twitter-bootstrap-rails', :git => 'git://github.com/seyhunak/twitter-bootstrap-rails.git'
                                                      # Twitter Bootstrap for Rails 3.1 Asset Pipeline
 gem 'protected_attributes'
+gem "font-awesome-rails"
 
 gem 'sass-rails'
 gem 'coffee-rails'
